@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playlister</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<!-- <script src="index.js"></script> -->
+  <style>
+    .bookmarklet {
+      border-radius: 5px;
+      border: 3px solid #333;
+      display: inline-block;
+      font-weight: bold;
+      margin: 10px 0;
+      padding: 10px 25px;
+      text-decoration: none;
+    }
+  </style>
+  <h1>On Air</h1>
+  <p>
+    <a class="bookmarklet" href="javascript:(function(){var%20songfinder=document.createElement('SCRIPT');songfinder.type='text/javascript';songfinder.src='https://nathaliamar.github.io/playlist/songfinder.js';document.getElementsByTagName('head')[0].appendChild(songfinder);})();" onclick="javascript:return false;">songfinder</a>
+  </p>
+
+  </body>
+</html>
